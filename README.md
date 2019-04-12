@@ -1,4 +1,4 @@
-## 我的思考
+## 我的思考与总结
 
 ### 2019年3月
 * [小程序性能优化的几点实践技巧](https://mp.weixin.qq.com/s/zhBQmjDoo056hlyR41RTIw)
