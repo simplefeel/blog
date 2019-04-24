@@ -1,5 +1,9 @@
 ## 我的思考与总结
 
+### 2019年4月
+* [从0到1完成一个Babel插件](https://juejin.im/post/5cbe76d8f265da036d79bbe5)
+* [《三分钟阅读》你不知道的forEach的一些小细节](https://juejin.im/post/5cb860eaf265da03ac0d052b)
+
 ### 2019年3月
 * [小程序数据通信方法大全](https://juejin.im/post/5cb2f572e51d456e6154b402)
 * [小程序性能优化的几点实践技巧](https://mp.weixin.qq.com/s/zhBQmjDoo056hlyR41RTIw)
