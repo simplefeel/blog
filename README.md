@@ -12,5 +12,6 @@
 * [React 系列之一起认识 Render Prop](https://juejin.im/post/5a965ac6f265da4e7a78889d)
 
 ## 三分钟阅读系列
+* [《第3期》CSS对话框小尾巴的复盘之旅](https://juejin.im/post/5cdc0458f265da03a1584fd0)
 * [《第2期》7个有用的JavaScript技巧](https://juejin.im/post/5cc6f07ce51d456e3a5f089b)
 * [《第1期》你不知道的forEach的一些小细节](https://juejin.im/post/5cb860eaf265da03ac0d052b)
