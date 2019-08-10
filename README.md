@@ -2,8 +2,6 @@
 
 > 分享自己的思考，结交热爱学习的伙伴，欢迎star
 
-## 专栏
-
 * [谈谈「数据模型」是如何助力前端开发的](https://mp.weixin.qq.com/s/q6xybux0fhrUz5HE5TY0aA)*（2019-08-22）* *（前端早读课刊登）*
 * [CSS的一些你可能不知道的强大技巧](https://juejin.im/post/5d0b76d8f265da1b602909c5)
 * [7个有用的Vue开发技巧](https://juejin.im/post/5ce3b519f265da1bb31c0d5f)*（2019-05-21）* *（37k次阅读）* *（1k次点赞）* *（掘金热榜）（code秘密花园刊登）*
