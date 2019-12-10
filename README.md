@@ -1,5 +1,6 @@
 <h1 align="center"> 🌱文章分享</h1>
 
+* [如何使用不到50行code实现小而美的依赖收集库并运用到微信小程序中？](https://juejin.im/post/5de088655188255ee538701e)
 * [缓动函数和三角函数在前端动画开发中的作用](https://juejin.im/editor/posts/5da5b941f265da5b981a854d) 
 * [谈谈「数据模型」是如何助力前端开发的](https://mp.weixin.qq.com/s/q6xybux0fhrUz5HE5TY0aA)*（2019-08-22）* *（前端早读课刊登）* *（前端桃园刊登）*
 * [CSS的一些你可能不知道的强大技巧](https://juejin.im/post/5d0b76d8f265da1b602909c5)
