@@ -42,12 +42,12 @@ jobs:
         run: |
           echo ${{github.repository}}
           source venv/bin/activate
-          python main.py ${{ secrets.Z_S_J }} ${{github.repository}}
+          python main.py ${{ secrets.ZSJ }} ${{github.repository}}
 
       - name: Push README
         uses: github-actions-x/commit@v2.6
         with:
-          github-token: ${{ secrets.Z_S_J }}
+          github-token: ${{ secrets.ZSJ }}
           commit-message: "Refresh README"
           files: README.md
           rebase: "true"
