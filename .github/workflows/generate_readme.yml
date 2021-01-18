@@ -1,13 +1,20 @@
 name: Generate GitBlog README
 
 on:
+  workflow_dispatch:
   issues:
-    types: [opened, edited, deleted]
+    types: [opened, edited]
+  issue_comment:
+    types: [created, edited]
   push:
     branches:
       - master
     paths:
       - main.py
+
+env:
+  GITHUB_NAME: simplefeel
+  GITHUB_EMAIL: 1256676224@qq.com
 
 jobs:
   sync:
@@ -38,18 +45,18 @@ jobs:
           pip install -r requirements.txt
         if: steps.pip-cache.outputs.cache-hit != 'true'
 
-      - name: Generate new md
+      - name: Generate new md # if you fork or clone this repo, please delete the curl line unless you know why
         run: |
-          echo ${{github.repository}}
           source venv/bin/activate
-          python main.py ${{ secrets.Z_S_J }} ${{github.repository}}
+          python main.py ${{ secrets.Z_S_T }} ${{ github.repository }} --issue_numbe '${{ github.event.issue.number }}'
+          curl -H "Content-Type:application/json" -X POST -d '{"inputs": {}, "ref":"main"}' https://api.github.com/repos/yihong0618/2021/actions/workflows/4756004/dispatches -H "Authorization: token ${{ secrets.Z_S_T }}"
 
       - name: Push README
         uses: github-actions-x/commit@v2.6
         with:
-          github-token: ${{ secrets.Z_S_J }}
-          commit-message: "Refresh README"
-          files: README.md
+          github-token: ${{ secrets.Z_S_T }}
+          commit-message: "Refresh README AND BACK UP"
+          files: README.md BACKUP/
           rebase: "true"
-          name: simplefeel
-          email: 1256676224@qq.com
+          name: ${{ env.GITHUB_NAME }}
+          email: ${{ env.GITHUB_EMAIL }}
