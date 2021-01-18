@@ -51,5 +51,5 @@ jobs:
           commit-message: "Refresh README"
           files: README.md
           rebase: "true"
-          name: yihong0618
-          email: zouzou0208@gmail.com
+          name: simplefeel
+          email: 1256676224@qq.com
